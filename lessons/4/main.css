@@ -1,0 +1,65 @@
+/* html {
+  font-size: 20px;
+}
+
+nav ul {
+  background-color: yellow;
+  font-size: 0;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+nav li {
+  box-sizing: border-box;
+  color: blue;
+  display: inline-block;
+  width: 25%;
+}
+
+nav a {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 2.5;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: green;
+  color: yellow;
+} */
+
+/* table {
+  background-color: cyan;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: orange;
+}
+
+.yellow>td {
+  background-color: yellow;
+} */
+/* 
+[scope="col"] {
+  background-color: green;
+}
+
+[scope="row"] {
+  background-color: yellow;
+} */
+
+/* table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid gray;
+} */

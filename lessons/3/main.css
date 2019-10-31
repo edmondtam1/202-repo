@@ -1,0 +1,44 @@
+body,
+main,
+figure,
+figcaption,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* ul {
+  background-color: #a7ceff;
+  border: 10px solid blue;
+  list-style: none;
+  padding: 0;
+  display: block;
+
+} */
+
+body {
+  background-image: url(http://d3jtzah944tvom.cloudfront.net/202/images/lesson_3/gradient-background.png);
+  background-size: cover;
+}
+
+main {
+  margin: 50px;
+  font-size: 0;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 50px 0;
+  padding: 0 50px;
+  width: 50%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1rem;
+}
