@@ -119,7 +119,6 @@ figure.tn img {
 @media screen and (min-width: 1280px) {
   .main figcaption {
     bottom: -28px;
-    left: 20px;
     padding: 0;
     position: relative;
   }
