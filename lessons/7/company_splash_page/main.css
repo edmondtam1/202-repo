@@ -1,0 +1,92 @@
+@import url(../../../reset.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./bg_body.gif);
+  background-repeat: repeat;
+  color: #45494d;
+  font: 400 20px 'Nunito Sans', sans-serif;
+  padding-bottom: 140px;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+header figure {
+  margin: 0 auto;
+  padding: 159px 0 85px 0;
+  text-align: center;
+}
+
+header figure img {
+  display: inline-block;
+}
+
+main {
+  background-color: white;
+  clear: both;
+  color: #45494d;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 400px;
+  max-width: 1000px;
+}
+
+main h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+main h2:nth-of-type(1) {
+  padding: 100px 0 22px 0;
+}
+
+main p {
+  padding: 0 90px 68px;
+}
+
+main h2:nth-of-type(2) {
+  padding: 90px 0 24px 0;
+}
+
+main h3 {
+  color: #3e98b2;
+  font-size: 24px;
+  letter-spacing: 0.04rem;
+  padding: 0 0 24px 0;
+}
+
+main h2::before, main h2::after {
+  color: black;
+  content: "\2022";
+  font-size: 28px;
+  padding: 0 28px;
+  vertical-align: 4px;
+}
+
+footer {
+  background-color: #e7e7e7;
+  font-size: 0;
+  margin: 0 auto;
+  padding: 35px;
+  text-align: center;
+  min-width: 400px;
+  max-width: 1000px;
+}
+
+footer span figure {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+footer span figure img {
+  display: inline-block;
+  margin: 0 auto;
+}

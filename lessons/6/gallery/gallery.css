@@ -55,7 +55,7 @@ section {
 @media screen and (min-width: 1280px) {
   section {
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: max-content;
+    grid-template-rows: min-content;
     grid-template-areas:
       "header header"
       "main box-1"
@@ -67,6 +67,10 @@ section {
       ". box-7"
       ". box-8";
     max-width: 100%;
+  }
+
+  img {
+    height: 100%;
   }
 }
 
@@ -119,9 +123,12 @@ figure.tn img {
 @media screen and (min-width: 1280px) {
   .main figcaption {
     bottom: -28px;
-    left: 20px;
-    padding: 0;
-    position: relative;
+    /* padding: 0;
+    position: relative; */
+  }
+
+  figure.tn {
+    background-color: blue;
   }
 
   figure.tn img {

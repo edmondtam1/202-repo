@@ -1,0 +1,115 @@
+@import url(/reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, #fcfff5, #d1dbbd);
+  background-repeat: no-repeat;
+  color: #3e606f;
+  font: normal 18px "Roboto Condensed", sans-serif;
+  margin: 0 auto;
+  padding: 0 70px;
+  width: 1100px;
+}
+
+header {
+  padding: 20px 20px 15px 20px;
+  position: relative;
+  width: 960px;
+}
+
+h1 {
+  color: #193441;
+  font-size: 36px;
+  font-weight: normal;
+  padding: 45px 0 15px 6px;
+  vertical-align: top;
+}
+
+header img, header h1 {
+  display: inline-block;
+}
+
+nav {
+  bottom: 0;
+  right: 20px;
+  position: absolute;
+
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  float: right;
+  height: 45px;
+  justify-content: space-between;
+  width: 530px;
+}
+
+nav li {
+  /* flex: 1; */
+  height: 45px;
+  position: relative;
+  flex-basis: 24%;
+}
+
+nav li a {
+  background-color: #fcfff5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #91aa9d;
+  line-height: 45px;
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: text-bottom;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+a.active {
+  background-color: #91aa9d;
+  color: #fcfff5;
+}
+
+main {
+  background-color: white;
+  box-shadow: 0 5px 5px #b5b5b5;
+  clear: both;
+  color: #3e606f;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+  width: 960px;
+}
+
+main img.masthead {
+  padding: 0 0 32px;
+}
+
+main h2 {
+  font-size: 32px;
+  font-weight: normal;
+  padding: 0 0 20px;
+}
+
+main p {
+  line-height: 24px;
+  padding: 0 0 20px 0;
+}
+
+main figure {
+  float: right;
+  padding: 0 0 0 30px;
+}
+
+footer {
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 960px;
+}

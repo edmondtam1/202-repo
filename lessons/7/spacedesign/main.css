@@ -1,0 +1,152 @@
+@import url(../../../reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f2840 url(./images/bg_body.gif) 50% 0 repeat;
+  background-repeat: repeat;
+  color: #45494d;
+  font: normal 20px Avenir, Helvetica, Arial, sans-serif;
+  padding: 135px 0 0 0;
+  text-align: center;
+}
+
+header {
+  max-width: 100%;
+  text-align: center;
+}
+
+header>img {
+  padding: 0 0 115px 0;
+}
+
+header>nav {
+  padding: 0 0 50px 0;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  color: #cacaca;
+  font-size: 26px;
+  padding: 0 42px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header a.active {
+  color: #6db9ff;
+  font-weight: bold;
+}
+
+main {
+  background-color: white;
+  color: #45494d;
+  padding: 50px 185px 85px 185px;
+}
+
+main h2 {
+  font-size: 36px;
+  display: inline-block;
+  margin: 75px 0 40px 0;
+}
+
+main h2::before, main h2::after {
+  color: black;
+  content: "\2022";
+  font-size: 28px;
+  padding: 0 28px;
+  vertical-align: 4px;
+}
+
+main h3 {
+  color: #3e59b2;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 0 20px 0;
+}
+
+main p {
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0 auto;
+  /* padding: 0 190px; */
+  width: 800px;
+}
+
+main>img {
+  margin: 35px 0 50px 0;
+}
+
+main>img:first-of-type {
+  margin: 0 0 50px 0;
+}
+
+div.portraits {
+  margin: 0 auto;
+  padding: 128px 0;
+}
+
+div.portraits>figure {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+div.portraits figcaption {
+  color: #3e59b2;
+  font-size: 24px;
+  padding: 32px 0 0 0;
+}
+
+footer {
+  background-color: #e7e7e7;
+  padding: 90px 185px 75px 185px;
+  width: 100%;
+}
+
+footer p {
+  color: #b5b5b5;
+  margin: 0 auto;
+  padding: 0 190px 40px;
+  width: 1000px;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 60px;
+  top: 0;
+}
+
+footer li a {
+  background: transparent url(./images/icons_social-media.png) 0 0 no-repeat;
+  display: block;
+  font-size: 0;
+  height: 46px;
+  overflow: hidden;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
+}
